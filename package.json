@@ -1,0 +1,19 @@
+{
+  "name": "todolist_app",
+  "version": "1.0.0",
+  "description": "todo list app",
+  "main": "app.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "author": "kapil chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.1"
+  }
+}

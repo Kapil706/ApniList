@@ -1,0 +1,97 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList_App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> -->
+
+    <!-- In place of this EJS layouts is used  -->
+
+
+<%- include("header") -%>
+
+
+    <!-- here  is used for the value we want from our server to the h1 in the browser with this key "kindofDay" -->
+<!--     
+    Now for the control-flow we can use scriplet tags in ejs  with every single javascript line of code and it work line by line-->
+
+
+    <div class="box" id="heading">
+
+        <h1><%= listTitle %></h1>
+
+    </div>
+
+    <div class="box">
+
+
+
+
+
+
+
+       <% Itemlist.forEach(function(item){%>
+
+
+            <!-- Now here we need is when we click the checkbox the item got removed from the database
+            So for that we need a form with a post route which will give us the data or id which we need to delete documents from the database -->
+          <form action="/delete" method="post">
+                <div class="item">
+
+                    <input type="checkbox"  name="checkbox" value= "<%=item._id%>"  onChange="this.form.submit()">    
+                        <!-- here we need something that when we click on checkbox the form got submit   // here item._id gives the id for the data that we want to delete   -->
+    
+                    <p> <%=item.name %> </p>     
+                    <!-- item.name is the property of item which is the ultimate property of database schema -->
+                
+                </div>
+                <input type="hidden" name="listName" value="<%= listTitle %>"></input>   
+                <!-- This is for the listTitle we need to check in case of delete -->
+         </form> 
+
+        <%})%>
+
+
+    
+
+      
+
+
+
+
+
+       <form class="item" action="/" method="post">
+            
+        <input type="text" name="todoItem"  placeholder="Add Item..." autocomplete="off">
+  
+        <button type="submit" name="list" value= "<%= listTitle %>" >+</button>
+  
+  
+       </form>
+  
+
+
+
+    </div>
+
+
+<%- include("footer") -%>    
+
+
+   
+    <!-- <footer>
+     
+        copyright Kapil Chaudhary 2021
+
+    </footer>
+
+  
+
+
+
+</body>
+</html> -->
