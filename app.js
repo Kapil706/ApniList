@@ -26,7 +26,7 @@ app.use(express.static('public'));
 // let workItems=[];  not use this as using db
 
 // we will connect to mongoose db server
-mongoose.connect('mongodb+srv://admin_kapil:Test123@cluster0.ph4p7.mongodb.net/todoListDb', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://admin_kapil:@cluster0.ph4p7.mongodb.net/todoListDb', {useNewUrlParser: true, useUnifiedTopology: true});
 // to connect to the mongodb atlas we need to provide new string
 
 
