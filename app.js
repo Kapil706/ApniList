@@ -305,7 +305,7 @@ app.post("/delete",function(req,res){
     const listName = req.body.listName;
 
     // we have to check if the delete is from the home page or the different custom route page 
-    if (listName === "Today") {
+    if (listName === "Today") {  
        //console.log(checkedItemId);
 
         // Now there is some findByIdAndRemove() in mongoose for this purpose
