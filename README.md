@@ -15,6 +15,18 @@ Or You Can Say What tech I have used
 6. EJS (Embedded JavaScript) in HTML for Reducing the Code base and Redudant HTML Data.
 
 Here Are Some Photos How It Looks : 
+![Img1](Img1.png)
+
+## Custom Dynamic Routing for Infinite Routes With Different Data
+![Img2](Img2.png)
+
+## Checkbox to Delete from all the Three 
+## Frontend
+## Express Server
+## Mongodb Database
+![Img2](Img4.png)
+![Img2](Img3.png)
+
 
 
 
