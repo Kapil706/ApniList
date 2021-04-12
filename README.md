@@ -8,6 +8,10 @@ For [Live Demo](https://apnilist.herokuapp.com/)
 
 ## Main file is (app.js) To Understand the Whole Code
 
+## For custom routes (https://apnilist.herokuapp.com/{add here what ever you want})
+
+## Eg (https://apnilist.herokuapp.com/Monday or Tuesday or anything else)
+
 What I learnt While making this Application
 Or You Can Say What tech I have used 
 
