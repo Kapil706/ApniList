@@ -14,4 +14,9 @@ Or You Can Say What tech I have used
 5. Using MongoDB Atlas for hosting the Database
 6. EJS (Embedded JavaScript) in HTML for Reducing the Code base and Redudant HTML Data.
 
+
+Code for the Project Lies in # Master Branch
+
+So git Checkout to master.
+
 Here Are Some Photos How It Looks : 
