@@ -6,7 +6,7 @@ It is deployed on heroku.
 
 For [Live Demo](https://apnilist.herokuapp.com/)
 
-## Main file is App.Js To Understand the Whole Code
+## Main file is (app.js) To Understand the Whole Code
 
 What I learnt While making this Application
 Or You Can Say What tech I have used 
