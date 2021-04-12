@@ -29,6 +29,23 @@ Here Are Some Photos How It Looks :
 
 
 
+## For Contribution 
+Checkout Different Branch 
+
+git Fork
+git Clone 
+
+npm install 
+
+npm run 
+
+While running the Express Server for Our App Plz Start 
+local MongoDb Server Also for Datbase Storage.
+
+Thanks and Give Me Ideas to make this application more Interesting.
+
+
+
 
 
 
